@@ -69,3 +69,29 @@ main {
 p {
     font-family: 'Inter', sans-serif;
 }
+
+
+section>p {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+
+}
+
+form {
+
+    text-align: center;
+    justify-content: center;
+}
+
+form>fieldset>p {
+
+    padding: 1em;
+
+}
+
+#submit {
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+}
