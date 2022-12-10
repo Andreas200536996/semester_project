@@ -9,7 +9,7 @@ var item3 = form.elements['item3'];
 // Add an event listener that will be triggered when the form is submitted
 form.addEventListener('submit', function(e) {
   // Prevent the form from being submitted
-  e.preventDefault();
+ // e.preventDefault();
 
   // Create a string to hold the items the user has ordered
   var order = '';
