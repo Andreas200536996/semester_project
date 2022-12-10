@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="./js/index.js" defer></script>
+    <title>Bakery</title>
+</head>
+<body>
+
+
+    <nav>
+        <ul>
+            <li><a href="./about.html">About the Bakery</a></li>
+        </ul>
+    </nav>
+
+
+    <header>
+        <h1>Bakery</h1>
+
+    </header>
+    
+
+    <main>
+        <section>
+            <img src="./Images/deva-williamson-tW0Ix_Ajg6Y-unsplash.jpg" alt="Cake"> 
+            <p>Freshly Baked Cakes</p>
+        </section>
+
+        <section>
+            <img src="./Images/jude-infantini-rYOqbTcGp1c-unsplash.jpg" alt="Bread">
+            <p>Freshly Baked Bread</p>
+        </section>
+
+        <section>
+            <img src="./Images/michael-chiara-BLy3LMYMVvE-unsplash.jpg" alt="Muffins">
+            <p>Freshly Baked Muffins</p>
+        </section>
+
+
+        <form action="./thanks.html" netlify method="post">
+            <fieldset>
+                <legend>Your Order</legend>
+                <p>
+                    <label for="breadNumber">Amount of Bread</label>
+                    <input type="text" name="breadNumber" id="breadNumber">
+                </p>
+                <p>
+                    <label for="cakeNumber">Amount of Cake(s)</label>
+                    <input type="text" name="cakeNumber" id="cakeNumber">
+                </p>
+                <p>
+                    <label for="muffinNumber">Amount of Muffin(s)</label>
+                    <input type="text" name="muffinNumber" id="muffinNumber">
+                </p>
+            </fieldset>
+
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+
+
+        </form>
+    </main>
+</body>
+</html>
