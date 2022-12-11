@@ -13,7 +13,7 @@ function submitForm() {
     var muffin = muffinInput.value;
     var totalPrice = ((bread*7.35) + (cake *17.85) + (muffin*1.47));
   
- alert("Your total order price will be: $" + totalPrice);
+ alert("Your total order price will be: $" + totalPrice + "\nYour order contains: " + "\nBread: " + bread + "\nCake(s): " + cake +"\nMuffin(s): " + muffin);
   }
 
 
