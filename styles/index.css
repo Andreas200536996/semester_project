@@ -29,7 +29,7 @@ nav a:hover {
 
 
 header {
-   
+
     background: url(../Images/zhang-kaiyv-qn6-cEO8Ryo-unsplash.jpg);
     background-size: cover;
     background-position: center;
@@ -59,7 +59,7 @@ section {
 
 }
 
-section>img{
+section>img {
     width: 300px;
     height: 300px;
 

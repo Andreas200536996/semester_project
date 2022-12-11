@@ -24,12 +24,12 @@ nav a:hover {
 
 
 body {
-    background-color:#273c75;
+    background-color: #273c75;
 }
 
 
 header {
-   
+
     background: url(../Images/zhang-kaiyv-qn6-cEO8Ryo-unsplash.jpg);
     background-size: cover;
     background-position: center;
@@ -46,9 +46,10 @@ header {
     font-size: 3.4em;
     font-family: 'Montserrat', sans-serif;
 }
+
 main {
     width: 100%;
-    
+
 }
 
 
@@ -69,7 +70,7 @@ h2 {
     color: #fff;
 }
 
-p{
+p {
     font-family: 'Inter', sans-serif;
     padding: 1em;
     color: #fff;
